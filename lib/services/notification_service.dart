@@ -1,6 +1,4 @@
 import 'package:awesome_notifications/awesome_notifications.dart';
-import 'package:firebase/main.dart';
-import 'package:firebase/screens/second_screen.dart';
 import 'package:firebase/services/firestore.dart';
 import 'package:flutter/material.dart';
 

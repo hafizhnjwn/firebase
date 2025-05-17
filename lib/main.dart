@@ -2,7 +2,6 @@ import 'package:firebase/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase/screens/home.dart';
-import 'package:firebase/screens/second_screen.dart';
 import 'package:firebase/services/notification_service.dart';
 import 'package:firebase/screens/login.dart';
 import 'package:firebase/screens/register.dart';
@@ -30,7 +29,6 @@ class MyApp extends StatelessWidget {
       title: 'Notification Demo',
       routes: {
         'home': (context) => const HomeScreen(),
-        'second': (context) => const SecondScreen(),
         'login': (context) => const LoginScreen(),
         'register': (context) => const RegisterScreen(),
       },
